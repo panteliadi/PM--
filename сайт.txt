@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Школа №123 - Главная</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">Об авторе</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Добро пожаловать в Школу №123</h1>
+      <p>Мы предоставляем качественное образование для учащихся всех возрастов.</p>
+      <a href="#" class="cta">Записаться</a>
+    </section>
+
+    <section class="about">
+      <h2>О нашей школе</h2>
+      <div class="about-content">
+        <img src="" alt="Школа №123">
+        <div>
+          <p>Школа №123 была основана в 1990 году и с тех пор предоставляет высококачественное образование для учеников всех возрастов. Мы гордимся нашим опытным преподавательским составом и современной учебной базой.</p>
+          <p>Наша миссия - помочь каждому ученику раскрыть свой потенциал и подготовить его к успешному будущему.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Особенности нашей школы</h2>
+      <div class="feature-list">
+        <div class="feature">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Высокий уровень образования</h3>
+          <p>Наши ученики показывают отличные результаты на экзаменах и поступают в лучшие вузы страны.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-users"></i>
+          <h3>Индивидуальный подход</h3>
+          <p>Мы уделяем внимание каждому ученику, помогая ему раскрыть свои таланты и достигать целей.</p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-school"></i>
+          <h3>Современная инфраструктура</h3>
+          <p>Школа оснащена новейшим оборудованием и технологиями для эффективного обучения.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Школа №123. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
